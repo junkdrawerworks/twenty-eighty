@@ -8,7 +8,7 @@
 // fingerprint of every file in SHELL: change any of them and test/e2e.mjs fails until FILES is changed to match (it
 // says what to), which changes this file, so every copy is made whole again at once.
 const CACHE = 'twenty-eighty-v2'; // bump the number when the file list changes
-const FILES = '9a49992c'; // test/e2e.mjs checks this
+const FILES = '290c1165'; // test/e2e.mjs checks this
 const SHELL = [
   './', 'index.html', 'carry.js', 'icon.svg', 'manifest.webmanifest',
   'assets/index.js', 'assets/index.css', 'assets/sim.worker.js',
